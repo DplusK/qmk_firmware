@@ -5,6 +5,7 @@
 
 #include "config_common.h"
 
+#define NO_USB_STARTUP_CHECK
 /* key matrix size */
 #define MATRIX_ROWS 8
 #define MATRIX_COLS 6

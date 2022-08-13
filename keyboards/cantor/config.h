@@ -5,10 +5,14 @@
 
 #include "config_common.h"
 
-#define NO_USB_STARTUP_CHECK
 /* key matrix size */
 #define MATRIX_ROWS 8
 #define MATRIX_COLS 6
+
+#define DEBOUNCE 30
+// #define WAIT_FOR_USB yes
+// #define TAPPING_TERM 100
+// #define USB_SUSPEND_WAKEUP_DELAY 200
 
 #define DIRECT_PINS {{B1, B10, A8, B15, B14, B13}, \
                      {B9, B8, B5, B4, B3, A15}, \
